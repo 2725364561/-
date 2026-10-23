@@ -1,0 +1,21 @@
+/*标记文字背景*/
+.sanjiu-suit-symbol {
+    background-image: url('./image/mark/mark.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.5em;
+    height: 1.5em;
+    line-height: 1;
+}
+
+/* 标记文字横向排列 */
+.sanjiu-mark-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
